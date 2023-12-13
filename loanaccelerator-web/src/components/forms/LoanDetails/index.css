@@ -1,0 +1,165 @@
+/* .secondary_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  margin-left: 20px;
+  color: #626D8A;
+}
+.primary_text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #042747;
+}
+
+.buttons {
+  margin-top: 50px;
+  margin-left: 400px;
+
+ }
+.nextbutton{
+  width: 100px;
+    height: 40px;
+    background: #095FF6;
+    box-shadow: 4px 6px 10px rgba(0, 136, 206, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+}
+
+.nextbutton {
+  width: 100px;
+  height: 40px;
+  background: #095FF6;
+  box-shadow: 4px 6px 10px rgba(0, 136, 206, 0.12);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+}
+
+.backbutton {
+  color: #928C8C !important;
+  border: none;
+  font-size: 18px;
+}
+.input1,.input2,.input3{
+   width: 200px!important;
+   margin: 10px;
+   outline: none;
+
+}
+
+.segment{
+  margin: 10px;
+  margin-left:10px;
+}
+.segment {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.ant-segmented-control .ant-btn span {
+  color: white;
+} 
+.segmented-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 77%;
+  
+}
+
+.segment-box {
+  display: flex;
+   width: 400px; 
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background-color:#F2EEEE;
+   transition: all 0.3s ease;
+  margin-right: 910px;
+  margin-bottom: 20px;
+
+}
+
+.segment {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   white-space: nowrap; 
+
+}*/
+
+.segment.selected {
+  color: white;
+  background-color: #2C76C9;
+  border: none;
+  border-radius: 8px;
+  transform: scale(1.1);
+  z-index: 1;
+  height: 50px;
+
+} 
+
+.segment {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  white-space: nowrap;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.segment.selected {
+  color: white;
+  background-color: #2C76C9;
+  border: none;
+  border-radius: 8px;
+  transform: scale(1.1);
+  z-index: 1;
+  height: 50px;
+
+} 
+.loan_details_title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin-left: 10px;
+  padding-top: 50px;
+  color: #042747;
+  font-family: Roboto;
+}
+
+.loan_details_secondary_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  padding-top: 5px;
+  margin-left: 10px;
+  color: #626D8A;
+}
+
+.input1,
+.input2,
+.input3 {
+  width: 250px !important;
+  margin: 10px;
+  flex: 1;
+  border-color: #d3d5dd;
+
+}
+
